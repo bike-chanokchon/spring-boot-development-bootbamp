@@ -1,0 +1,10 @@
+
+    maven command
+        - class ที่ถูก compile แล้วจะไปอยู่ที่ target folder
+        - ใช้ maven wrapper (mvnw)
+
+    > mvn spring-boot:run 
+        - ทำการ compile code ไปไว้ที่ target folder
+
+    > mvn clean spring-boot:run
+        - ลบ class ที่ compile ไว้ก่อนหน้าและทำการ compile ใหม่

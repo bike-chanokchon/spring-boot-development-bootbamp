@@ -1,0 +1,17 @@
+
+https://aws.amazon.com/th/corretto/?filtered-posts.sort-by=item.additionalFields.createdDate&filtered-posts.sort-order=desc
+
+    > src/main/java
+        - จะเก็บ source code ของ project
+    
+    > src/main/java/com/[groupId]/[artifactId]
+        - Application.java เป็นจุดเริ่มต้นของ Application Spring boot
+
+    > src/main/resource
+        - จะเก็บ resource ของโปรเจ็ค
+        - src/main/resource/static จัดเก็บ image, css, static HTML
+        - src/main/resource/templates จัดเก็บ HTML แบบ dynamic
+        - src/main/resource/application.properties จัดเก็บการตั้งค่าสำหรับแอปพลิเคชั่นของเรา
+    
+    > src/test/java 
+        - จัดเก็บไฟล์สำหรับทดสอบแอปพลิเคชั่นของเรา
