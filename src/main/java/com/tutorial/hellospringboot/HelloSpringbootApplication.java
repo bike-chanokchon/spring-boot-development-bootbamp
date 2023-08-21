@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class HelloSpringbootApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Server listening ar http://localhost:8080");
 		SpringApplication.run(HelloSpringbootApplication.class, args);
 	}
 

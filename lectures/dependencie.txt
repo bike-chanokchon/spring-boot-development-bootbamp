@@ -1,10 +1,18 @@
 
     Dependencies (Library)
-    - Library ทีโปรเจคต้องพึ่งพา โดยอาจมาในรูปแบบไฟล์ .JAR file
-    - โดยเราสามารถจัดการ dependencies ได้ใน pom.xml
-    - Central Maven Repository จะมี dependencies ทั้งหมดที่ Spring boot สามารถใช้งานได้
+        - Library ทีโปรเจคต้องพึ่งพา โดยอาจมาในรูปแบบไฟล์ .JAR file
+        - โดยเราสามารถจัดการ dependencies ได้ใน pom.xml
+        - Central Maven Repository จะมี dependencies ทั้งหมดที่ Spring boot สามารถใช้งานได้
 
+    Maven Dependencies
+        - สามารถตั้งค่า dependencies ที่เราจะใช้เอาไว้ได้ใน pom.xml โดยมันจะไปโหลด dependencies ต่าง ๆ มาจาก Central Maven Repository
+          โดยเมื่อ Download ทุกอย่างแล้วมันจะถูกเก็บไว้ใน Local Maven Repository ซึ่งจะอยู่บนเครื่องของเรา
+
+    Dependencies Lectures
         > Spring boot starter web
             - ใช้สำหรับสร้าง HTTP Server ให้กับ Spring boot
             - เวอร์ชันจะต้องตรงกับ spring boot ของเรา
             - ด้านในจะเป็น Tomcat HTTP Server
+        
+        > Spring Boot DevTools
+            - restart ให้เองทุกครั้งที่มีการเปลี่ยนแปรง
