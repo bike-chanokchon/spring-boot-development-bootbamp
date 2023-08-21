@@ -10,6 +10,7 @@ https://aws.amazon.com/th/corretto/?filtered-posts.sort-by=item.additionalFields
     > src/main/resource
         - จะเก็บ resource ของโปรเจ็ค
         - src/main/resource/static จัดเก็บ image, css, static HTML
+            - จะต้องมี index.html สำหรับเป็นหน้าแรกที่ระบบจะมองเห็นเมื่อเข้าถึง path "/"
         - src/main/resource/templates จัดเก็บ HTML แบบ dynamic
         - src/main/resource/application.properties จัดเก็บการตั้งค่าสำหรับแอปพลิเคชั่นของเรา
     
